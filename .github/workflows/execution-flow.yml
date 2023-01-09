@@ -34,7 +34,7 @@ jobs:
         run: npm ci
       - name: Test code
         run: npm run test
-      - name: Upload test report
+      - name: Upload test report3
         uses: actions/upload-artifact@v3
         with:
           name: test-report
